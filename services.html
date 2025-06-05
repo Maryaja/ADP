@@ -21,7 +21,6 @@
   </header>
 
   <main class="services">
-    <!-- Formas de fondo -->
     <div class="bg-shape bg-shape-left"></div>
     <div class="bg-shape bg-shape-right"></div>
 
@@ -32,13 +31,53 @@
         <img src="img/logo.png" alt="Icono Dronautic" class="fade-in delay1">
       </div>
 
-      <ul class="service-list fade-in delay2">
-        <li>Consultoría</li>
-        <li>Páginas Web</li>
-        <li>Aplicaciones</li>
-        <li>Sistemas ERP</li>
+      <ul class="service-category-list fade-in delay2">
+        <li data-target="consultoria-details">Consultoría</li>
+        <li data-target="web-details">Páginas Web</li>
+        <li data-target="apps-details">Aplicaciones</li>
+        <li data-target="erp-details">Sistemas ERP</li>
       </ul>
-    </div>
+
+      <div class="service-details-wrapper fade-in delay3">
+
+        <div id="consultoria-details" class="service-detail-section">
+          <h3>Consultoría</h3>
+          <ul>
+            <li>Análisis de requerimientos técnicos y de negocio.</li>
+            <li>Evaluación de infraestructura tecnológica.</li>
+            <li>Propuestas de mejora de procesos y sistemas.</li>
+            <li>Capacitación y acompañamiento técnico o funcional.</li>
+          </ul>
+        </div>
+
+        <div id="web-details" class="service-detail-section">
+          <h3>Páginas Web</h3>
+          <ul>
+            <li>Eventos y detalles: <a href="https://dandelion.shopping/" target="_blank">dandelion.shopping</a></li>
+            <li>Home creation: <a href="https://homecreations.company/" target="_blank">homecreations.company</a></li>
+            <li>Dandelion: <a href="https://dandelion.shopping/" target="_blank">dandelion.shopping</a></li>
+          </ul>
+        </div>
+
+        <div id="apps-details" class="service-detail-section">
+          <h3>Aplicaciones</h3>
+          <ul>
+            <li>Módulos de transfer 365 (para Banco Cuscatlan).</li>
+            <li>Desarrollo de apps móviles multiplataforma.</li>
+            <li>Módulos para pruebas funcionales y de integración.</li>
+          </ul>
+        </div>
+
+        <div id="erp-details" class="service-detail-section">
+          <h3>Sistemas ERP</h3>
+          <ul>
+            <li>Análisis de requerimientos técnicos y de negocio.</li>
+            <li>Evaluación de infraestructura tecnológica.</li>
+            <li>Capacitación y acompañamiento técnico o funcional.</li>
+          </ul>
+        </div>
+
+      </div> </div>
   </main>
 
   <script src="script.js"></script>
